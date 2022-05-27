@@ -1,0 +1,47 @@
+/*
+============================
+            font
+============================
+*/
+
+@font-face {
+    font-family: "K2D-Bold";
+    src: url('../Police/K2D/K2D-Bold.ttf');
+}
+@font-face {
+    font-family: "K2D-ExtraBold";
+    src: url('../Police/K2D/K2D-ExtraBold.ttf');
+}
+
+*{
+    font-family: "K2D-Bold", sans-serif;
+}
+
+h1, 
+h2, 
+h3,
+h4 {
+    font-family: "K2D-ExtraBold", Arial, sans-serif;
+}
+
+.bg-1{
+    background-image: url("../Images/BG_01.webp");
+    background-size: cover;
+}
+
+
+.personal-color{
+    color: #008C8C ;
+}
+
+.px-10{
+    padding: 0 10%;
+}
+
+.py-15{
+    padding: 13% 0;
+}
+
+.personal-fs{
+    font-size: 4rem;
+}
