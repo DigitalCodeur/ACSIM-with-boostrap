@@ -27,6 +27,12 @@ h4 {
 .bg-1{
     background-image: url("../Images/BG_01.webp");
     background-size: cover;
+    
+}
+
+.bg-2{
+    background-image: url("../Images/BG_02.webp");
+    background-size: cover;
 }
 
 
@@ -44,4 +50,16 @@ h4 {
 
 .personal-fs{
     font-size: 4rem;
+}
+
+.border-color{
+    border-color: #008C8C !important;
+}
+
+.ms-30 {
+    margin-left: 22rem;
+}
+
+h1, h2, h3, a{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
