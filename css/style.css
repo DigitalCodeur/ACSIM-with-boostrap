@@ -45,21 +45,40 @@ h4 {
 }
 
 .py-15{
-    padding: 13% 0;
+    padding: 20% 0;
 }
 
 .personal-fs{
-    font-size: 4rem;
+    font-size: 3.5rem;
+}
+
+.personal-fs-h2{
+    font-size: 3rem;
 }
 
 .border-color{
     border-color: #008C8C !important;
 }
 
-.ms-30 {
-    margin-left: 22rem;
+h1, h2, h3,h4, a{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
-h1, h2, h3, a{
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+@media (max-width: 575.98px) {
+    .personal-fs{
+        font-size: 1.8rem;
+    }
+    
+    .personal-fs-h2{
+        font-size: 2rem;
+    }
+    article img {
+        width: 40% !important;
+    }
+ }
+
+ @media (min-width: 1399.98px) {
+    .personal-fs{
+        font-size: 6rem;
+    }
 }
