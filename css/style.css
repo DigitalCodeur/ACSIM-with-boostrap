@@ -1,29 +1,3 @@
-/*
-============================
-            font
-============================
-*/
-
-@font-face {
-    font-family: "K2D-Bold";
-    src: url('../Police/K2D/K2D-Bold.ttf');
-}
-@font-face {
-    font-family: "K2D-ExtraBold";
-    src: url('../Police/K2D/K2D-ExtraBold.ttf');
-}
-
-*{
-    font-family: "K2D-Bold", sans-serif;
-}
-
-h1, 
-h2, 
-h3,
-h4 {
-    font-family: "K2D-ExtraBold", Arial, sans-serif;
-}
-
 .bg-1{
     background-image: url("../Images/BG_01.webp");
     background-size: cover;
@@ -62,6 +36,32 @@ h4 {
 
 h1, h2, h3,h4, a{
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+/*
+============================
+            font
+============================
+*/
+
+@font-face {
+    font-family: "K2D-Bold";
+    src: url('../Police/K2D/K2D-Bold.ttf');
+}
+@font-face {
+    font-family: "K2D-ExtraBold";
+    src: url('../Police/K2D/K2D-ExtraBold.ttf');
+}
+
+*{
+    font-family: "K2D-Bold", sans-serif;
+}
+
+h1, 
+h2, 
+h3,
+h4 {
+    font-family: "K2D-ExtraBold", Arial, sans-serif;
 }
 
 @media (max-width: 575.98px) {
