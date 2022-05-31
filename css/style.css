@@ -74,6 +74,9 @@ h4 {
     .personal-fs-h2{
         font-size: 2rem;
     }
+}    
+
+    @media (max-width: 700px) {
     article img {
         width: 40% !important;
     }
